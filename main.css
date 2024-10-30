@@ -1,0 +1,22 @@
+h2 {
+    color:rgb(63, 0, 250);
+    text-shadow: 20px;
+
+}
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+.MovieList :not(h2) {
+    text-decoration: overline dotted;
+}
+
+#genres, .LoginFormLabel[for*="in"]  {
+    text-decoration: underline wavy;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    font-family: "Oswald", sans-serif;
+}
