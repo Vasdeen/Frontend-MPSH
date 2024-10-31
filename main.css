@@ -15,8 +15,84 @@ h1 {
     text-decoration: underline wavy;
 
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 body {
     font-family: "Oswald", sans-serif;
 }
+
+.Fact {
+    border: 5px double #ff8800;
+    margin-bottom: 5%;
+    background-color: darkgoldenrod;
+}
+
+#task5Facts {
+    margin-bottom: 5%;
+    background-color: chartreuse;
+}
+
+#fact2 {
+    padding-left: 25%;
+    border: 15px wavy;
+    background-color: cornflowerblue;
+}
+
+#fact3 {
+    padding-right: 200px;
+    height:min-content;
+    background-color: cadetblue;
+    color:white;
+}
+
+#fact1 {
+    height: 300px;
+    background-color: brown;
+    color:white;
+    text-align: right;
+}
+
+#fact2 {
+    height:fit-content;
+    background-color: blue;
+    color:white;
+}
+
+#fact4 {
+    width: 400px;
+    margin: 300px auto;
+    background-color: aquamarine;
+}
+
+#fact5 {
+    box-sizing: border-box;
+    padding: 100px 40px;
+    width: fit-content;
+    margin: 30% 50%;
+    background-color: #219d4f;
+   
+}
+
+#factText51 {
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 100px 40px;
+    margin: 30% 50%;
+    display: inline-block;
+    
+}
+
+#factText52 {
+    background-color: rgb(0, 255, 110);
+    box-sizing: border-box;
+    padding: 100px 40px;
+    margin: 30% 50%;
+}
+
+/* * {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+} */
