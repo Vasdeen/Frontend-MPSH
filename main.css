@@ -30,7 +30,6 @@ body {
 
 #task5Facts {
     margin-bottom: 5%;
-    background-color: chartreuse;
 }
 
 #fact2 {
@@ -96,3 +95,37 @@ body {
     border: 0px;
     box-sizing: border-box;
 } */
+
+.ShopShowCase{
+    padding: 16px;
+}
+
+.ShopItem{
+ background-color: #A6A6A6; 
+ border-radius: 24px;
+ display: inline-block;
+ margin-right: 16px;
+ margin-top: 16px;
+ padding: 16px;
+}
+
+.ShopItemDisplay, .ShopItemPhoto{
+    background-color: #FFE49D;
+    width: 149px;
+    height: 138px;
+    border-radius: 16px;
+    
+}
+
+.ShopItemBuyButton{
+    width: 149px;
+    height: 35px;
+    background-color: #555555;
+    color:white;
+    border-radius:10px;
+    margin-top: 16px;
+    border: none;
+}
+.ShopItemPhoto{
+    margin: auto;
+}
