@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+#containerFirst {
+    max-width : 1440px;
+    background-color: #07203F;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 137px;
+    padding-right: 137px;
+    padding-bottom: 150px;
+    padding-top: 135px;
+    color: #D9D9D9;
+
+}
+
+ #sectionFirstLeftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 49px;
+    
+ }
+
+ #sectionFirstLeftContainerHeader {
+    font-family: Montserrat, sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.02px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+ #sectionFirstLeftContainerDescription {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42.19px;
+    text-align: left;
+
+}
+
+.SectionButton {
+    background: #D9D9D9;
+    color: black;
+    height: 106px;
+    width: 605px;
+    border-radius: 150px;
+
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: auto;
+    text-transform: uppercase;
+}
+
+.SectionButton:hover {
+    background: orange;
+}
+
+#sectionFirstImg  {
+    max-width: 516px;
+    max-height: 516px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+/* ///////////////////// */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
