@@ -7,28 +7,35 @@ header {
 
 .container {
     background: #07203F;
-    max-width: 1440px;
-    color: white;
+    width: 1440px;
+    
     margin-left: auto;
     margin-right: auto;
+    
+
+    
+
+}
+
+.headerContent{
+    color: white;
     padding-left: 135px;
     padding-top: 55px;
     padding-bottom: 55px;
     padding-right: 135px;
-
+    text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     
+}
 
-    text-transform: uppercase;
+.HeaderBlock {
+    display: flex;
+    align-items: center;
 
 }
 
 #nicknameHeaderBlock {
-
-    display: flex;
-    align-items: center;
-
     font-family: Montserrat, sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -38,9 +45,7 @@ header {
 
 #linksHeaderBlock {
    
-    display: flex;
     gap: 40px;
-    align-items: center;
     flex-wrap: nowrap;
     white-space: nowrap;
 
@@ -52,7 +57,7 @@ header {
 
 }
 
-.headerLink {
+.headerBlock__link {
     color: white;
 }
 
