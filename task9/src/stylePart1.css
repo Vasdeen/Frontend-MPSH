@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.wall {
+  width: 300px;
+  height: 300px;
+  background-color: gray;
+  position: relative;
+}
+
+.wall__apple {
+  position:absolute;
+  bottom:20px;
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  left:15px;
+}
+
+.wall__apple-leaf {
+  width:5px;
+  height:15px;
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+  background-color: green;
+}
+
+.wall__window {
+  height: 120px;
+  width: 250px;
+  position: relative;
+  top: 5%;
+  left: 25px;
+  background-color: skyblue;
+}
+.wall__table-top {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  height: 20px;
+  width: 200px;
+  background-color: wheat;
+}
+
+.wall__vase {
+  position: absolute;
+  right: 40px;
+  bottom:20px;
+  height: 70px;
+  width: 30px;
+  background-color: darkblue;
+}
+
+
+.wall__table-leg {
+  position: relative;
+  top: 50%;
+  left: 90px;
+  height: 140px;
+  width: 20px;
+  background-color: wheat;
+}
+
+.wall__sun {
+  position: absolute;
+  top: 30%;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: yellow;
+}

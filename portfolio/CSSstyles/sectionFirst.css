@@ -1,6 +1,7 @@
 
 
 .first-section__content {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(sectionBackground.jpg)  top left/30% 30% repeat;
     color:white;
     display: flex;
     flex-direction: row;
