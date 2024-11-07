@@ -3,24 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="CSSstyles/main.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
+    <header class = "header">
         <div class = "container">
-            <div class = "headerContent">
-                <div class = "HeaderBlock" id = "nicknameHeaderBlock">
+            <div class = "header__content">
+                <div class = "header__nickname">
                     <p1>@vasdeen</p1>
                 </div>
-                <div class = "HeaderBlock" id = "linksHeaderBlock">
-                    <a href="#" class = "headerBlock__link">мои работы</a>
-                    <a href="#" class = "headerBlock__link">обо мне</a>
-                    <a href="#" class = "headerBlock__link">контакты</a>
+                <nav class = "header__nav">
+                    <a href="#" class = "header__link">мои работы</a>
+                    <a href="#" class = "header__link">обо мне</a>
+                    <a href="#" class = "header__link">контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class = "base-section first-section">
+        <div class = "container">
+            <div class = "first-section__content">
+                <div class = "first-section__description-box">
+                    <h1 class = "first-section__header"> Я - фронтендер</h1>
+                    <p class = "first-section__description">Какая-то очень интересная информация обо мне. Очень интересная информация...</p>
+                    <button class = "first-section__button">Связаться со мной</button>
+                </div>
+                <div class = "first-section__image-box">
+                    <img src = "avatar.jpg" class = "first-section__image">
                 </div>
             </div>
             
         </div>
-    </header>
+    </section>
 </body>
 </html>

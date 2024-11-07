@@ -1,41 +1,31 @@
-header {
-    
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .container {
     background: #07203F;
-    width: 1440px;
-    
+    /* max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    
-
-    
-
+     */
+     
 }
 
-.headerContent{
+.header__content{
+    max-width: 90.625%;
     color: white;
-    padding-left: 135px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 55px;
     padding-bottom: 55px;
-    padding-right: 135px;
+    align-items: center;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     
 }
 
-.HeaderBlock {
+
+.header__nickname {
     display: flex;
     align-items: center;
-
-}
-
-#nicknameHeaderBlock {
     font-family: Montserrat, sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -43,8 +33,9 @@ header {
 
 }
 
-#linksHeaderBlock {
-   
+.header__nav {
+    display: flex;
+    align-items: center;
     gap: 40px;
     flex-wrap: nowrap;
     white-space: nowrap;
@@ -57,8 +48,12 @@ header {
 
 }
 
-.headerBlock__link {
+.header__link {
     color: white;
+}
+
+.header__link:hover {
+    color: orange;
 }
 
 
