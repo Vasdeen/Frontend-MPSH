@@ -8,6 +8,16 @@
      */
      
 }
+
+html {
+    scroll-behavior:smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
 .header__content{
     max-width: 90.625%;
     margin-left: auto;

@@ -1,0 +1,88 @@
+
+.fifth-section {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(sectionFifthBackground.jpg)  top left/100% 100% repeat; 
+}
+
+.fifth-section__content {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    max-width: 90.625%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 150px;
+    padding-top: 135px;
+    color: #D9D9D9;
+    
+}
+
+.fifth-section__header {
+    margin-bottom: 70px;
+}
+
+.fifth-section__title {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 87.77px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:white;
+text-transform: uppercase;
+}
+
+.fifth-section__card-gallery {
+    display: flex;
+    gap: 59px;
+    align-self: center;
+}
+
+.fifth-section__card {
+    width: 350px;
+    height: 350px;
+    background: var(--color-background);
+    display: flex;
+    flex-direction: column;
+    flex-basis: center;
+    gap: 22px;
+    padding-top: 112px;
+}
+
+.fifth-section__card-title {
+    font-family: Montserrat, sans-serif;
+font-size: 48px;
+font-weight: 800;
+line-height: 58.51px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-transform: uppercase;
+color: white;
+}
+
+.fifth-section__button {
+    background: #D9D9D9;
+    color: black;
+    height: 70px;
+    width: 300px;
+    border-radius: 150px;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: auto;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.fifth-section__button:hover {
+    background: orange;
+}
+
+.fifth-section__card:nth-of-type(2n) {
+    background: #D9AA90;
+    
+}
