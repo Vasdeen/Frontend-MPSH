@@ -1,6 +1,7 @@
 
 .container {
-    background: #07203F;
+    --color-background: #07203F;
+    background: var(--color-background);
     /* max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -9,9 +10,10 @@
 }
 .header__content{
     max-width: 90.625%;
-    color: white;
     margin-left: auto;
     margin-right: auto;
+    color: white;
+    
     padding-top: 55px;
     padding-bottom: 55px;
     align-items: center;
