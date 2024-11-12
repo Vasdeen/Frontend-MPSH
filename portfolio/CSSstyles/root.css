@@ -1,0 +1,20 @@
+
+.container {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    max-width: 90.625%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 150px;
+    padding-top: 135px;
+    color: #D9D9D9;
+}
+
+:root {
+    --color-background: #07203F;
+    scroll-behavior:smooth;
+    overscroll-behavior: none;
+    background: var(--color-background);
+}

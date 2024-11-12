@@ -6,9 +6,8 @@
     <link rel="stylesheet" type="text/css" href="CSSstyles/main.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body id = "body">
     <header class = "header">
-        <div class = "container">
             <div class = "header__content">
                 <div class = "header__nickname">
                     <p1>@vasdeen</p1>
@@ -19,11 +18,9 @@
                     <a href="#contacts" class = "header__link">контакты</a>
                 </nav>
             </div>
-        </div>
     </header>
     <section class = "base-section first-section" id = "about">
-        <div class = "container first-section">
-            <div class = "first-section__content">
+            <div class = "container first-section__container">
                 <div class = "first-section__description-box">
                     <h1 class = "first-section__header"> Я - фронтендер</h1>
                     <p class = "first-section__description">Какая-то очень интересная информация обо мне. Очень интересная информация...</p>
@@ -33,12 +30,9 @@
                     <img src = "avatar.jpg" class = "first-section__image">
                 </div>
             </div>
-            
-        </div>
     </section>
     <section class = "base-section second-section" id = "skills">
-        <div class = "container second-section">
-            <div class = "second-section__content">
+            <div class = "container">
                 <div class = "second-section__header">
                     <h1 class = "second-section__title"> Я умею</h1>
                 </div>
@@ -63,11 +57,9 @@
                     </div>
                 </div>
             </div> 
-        </div>
     </section>
     <section class = "base-section third-section" id ="work">
-        <div class = "container third-section">
-            <div class = "third-section__content">
+            <div class = "container">
                 <div class = "third-section__header">
                     <h1 class = "third-section__title">Мои проекты</h1>
                 </div>
@@ -101,11 +93,9 @@
                     </div>
                 </div>
             </div>      
-        </div>
     </section>
     <section class = "base-section fourth-section">
-        <div class = "container fourth-section">
-            <div class = "fourth-section__content">
+            <div class = "container">
                 <div class = "fourth-section__header">
                     <h1 class = "fourth-section__title">Оставьте заявку</h1>
                 </div>
@@ -121,33 +111,29 @@
                         </div>
                     </form>
             </div>      
-        </div>
     </section>
     <section class = "base-section fifth-section" id = "contacts">
-        <div class = "container fifth-section">
-            <div class = "fifth-section__content">
+            <div class = "container">
                 <div class = "fifth-section__header">
                     <h1 class = "fifth-section__title">Контакты</h1>
                 </div>
-            <div class = "fifth-section__card-gallery">
-                <div class = "fifth-section__card">
-                    <button type = "submit" class = "fifth-section__card-title">github</button>
-                    <button type = "submit" class = "fifth-section__button">ССЫЛКА</button>
+                <div class = "fifth-section__card-gallery">
+                    <div class = "fifth-section__card">
+                        <button type = "submit" class = "fifth-section__card-title">github</button>
+                        <button type = "submit" class = "fifth-section__button">ССЫЛКА</button>
+                    </div>
+                    <div class = "fifth-section__card">
+                        <button type = "submit" class = "fifth-section__card-title">telegram</button>
+                        <button type = "submit" class = "fifth-section__button">ССЫЛКА</button>
+                    </div>
+                    <div class = "fifth-section__card">
+                        <button type = "submit" class = "fifth-section__card-title">Телефон</button>
+                        <button type = "submit" class = "fifth-section__button">+133711037</button>
+                    </div>
                 </div>
-                <div class = "fifth-section__card">
-                    <button type = "submit" class = "fifth-section__card-title">telegram</button>
-                    <button type = "submit" class = "fifth-section__button">ССЫЛКА</button>
-                </div>
-                <div class = "fifth-section__card">
-                    <button type = "submit" class = "fifth-section__card-title">Телефон</button>
-                    <button type = "submit" class = "fifth-section__button">+133711037</button>
-                </div>
-            </div>
             </div>      
-        </div>
     </section>
     <footer class = "header">
-        <div class = "container">
             <div class = "header__content">
                 <div class = "header__nickname">
                     <p1>@vasdeen</p1>
@@ -155,10 +141,9 @@
                 <nav class = "header__nav">
                     <a href="#skills" class = "header__link">обо мне</a>
                     <a href="#work" class = "header__link">мои работы</a>
-                    <a href="#about" class = "header__link">В начало</a>
+                    <a href="#body" class = "header__link">В начало</a>
                 </nav>
             </div>
-        </div>
     </footer>
 </body>
 </html>
