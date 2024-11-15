@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="CSSstyles/main.css">
     <title>Portfolio</title>
 </head>
+<script src = "JSTask1.js"></script>
+<script src = "JSTask1_1.js"></script>
 <body id = "body">
     <header class = "header">
             <div class = "header__content">
@@ -92,6 +94,27 @@
                         </div>
                     </div>
                 </div>
+                <button class = "third-section__button" onclick="openTheWindow()" >Добавить проект</button>
+                <div class="modal js-modal">
+                    <div class="modal__bg"></div>
+                    <div class="modal__wrap">
+                        <div class = "modal__title">Введите информацию о проекте:</div>
+                        <input type = 'text' placeholder="Название проекта" class = "modal__input modal__input-name" maxlength ="30">
+                        <textarea type = 'text' placeholder="Краткое описание проекта"  class = "modal__input modal__input-description" maxlength ="100" value="Clear"> </textarea>
+                        <button class = "modal__save" onclick = "addNewProject()">ОК</button>
+                      <button type="button" class="modal__close" onclick = "closeTheWindow()">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                          <rect width="40" height="40" rx="20" ></rect>
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M12.2929 12.2929C12.6834 11.9024 13.3166 11.9024 13.7071 12.2929L20 18.5858L26.2929 12.2929C26.6834 11.9024 27.3166 11.9024 27.7071 12.2929C28.0976 12.6834 28.0976 13.3166 27.7071 13.7071L21.4142 20L27.7071 26.2929C28.0976 26.6834 28.0976 27.3166 27.7071 27.7071C27.3166 28.0976 26.6834 28.0976 26.2929 27.7071L20 21.4142L13.7071 27.7071C13.3166 28.0976 12.6834 28.0976 12.2929 27.7071C11.9024 27.3166 11.9024 26.6834 12.2929 26.2929L18.5858 20L12.2929 13.7071C11.9024 13.3166 11.9024 12.6834 12.2929 12.2929Z"
+                            fill="black"
+                          ></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
             </div>      
     </section>
     <section class = "base-section fourth-section">
@@ -101,9 +124,9 @@
                 </div>
                     <form class = "fourth-section__form">
                         <div class = "fourth-section__input-list">
-                            <input type = "text" placeholder = "Ваше имя">
-                            <input type = "text" placeholder = "Ваша почта">
-                            <input type = "text" placeholder = "Ваш телефон">
+                            <input type = "text" placeholder = "Ваше имя" class = "fourth-section__input">
+                            <input type = "text" placeholder = "Ваша почта" class = "fourth-section__input">
+                            <input type = "text" placeholder = "Ваш телефон" class = "fourth-section__input">
                         </div>
                         <div class = "fourth-section__button-list">
                             <button type = "submit" class = "fourth-section__button"><div class = "fourth-section__button-text">Очистить</div></button>
@@ -131,7 +154,8 @@
                         <button type = "submit" class = "fifth-section__button">+133711037</button>
                     </div>
                 </div>
-            </div>      
+            </div>
+                  
     </section>
     <footer class = "header">
             <div class = "header__content">

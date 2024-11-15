@@ -50,6 +50,9 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #D9D9D9;
 text-transform: uppercase;
+width: 442.08px;
+text-wrap: balance;
+word-wrap: break-word;
     }
 
     .third-section__card-description {
@@ -61,7 +64,9 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #D9D9D9;
-
+width: 443px;
+text-wrap: balance;
+word-wrap: break-word;
     }
 
 .third-section__image-box{
@@ -90,3 +95,23 @@ color: #D9D9D9;
 }
 
 
+.third-section__button {
+    background: #D9D9D9;
+    color: black;
+    height: 106px;
+    width: 605px;
+    border-radius: 150px;
+
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: auto;
+    text-transform: uppercase;
+    align-self: center;
+    margin-top: 150px;
+}
+
+.third-section__button:hover {
+    background: orange;
+}

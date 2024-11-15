@@ -34,7 +34,7 @@ text-transform: uppercase;
     padding-bottom: 78px;
     gap: 69px;
 }
-input {
+.fourth-section__input {
     background: #EADED4; 
     height: 98px;
     font-family: Montserrat;
