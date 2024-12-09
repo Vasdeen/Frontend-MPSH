@@ -36,5 +36,6 @@ function addProjectCard (name, description) {
                             <div class = "third-section__card-description">${description}</div>
                         </div>
                     </div>`;
+                    
 }
 

@@ -7,7 +7,8 @@
     <title>Portfolio</title>
 </head>
 <script src = "JSTask1.js"></script>
-<script src = "JSTask1_1.js"></script>
+<script src = "JSTask1_1.js" defer></script>
+<script src = "JSTask2.js" defer></script>
 <body id = "body">
     <header class = "header">
             <div class = "header__content">
@@ -135,6 +136,35 @@
                     </form>
             </div>      
     </section>
+
+    
+    <section class="quotes">
+        <h2 class="quotes__title">Мои любимые цитаты</h2>
+        <ul class="quotes__list">
+          <li class="quotes__list-item"></li>
+          <li class="quotes__list-item"></li>
+          <li class="quotes__list-item"></li>
+          <li class="quotes__list-item"></li>
+          <li class="quotes__list-item"></li>
+          <li class="quotes__list-item"></li>
+          <li class="quotes__list-item"></li>
+          <li class="quotes__list-item"></li>
+          <li class="quotes__list-item"></li>
+          <li class="quotes__list-item"></li>
+        </ul>
+        <div class = "quotes__settings">
+            <select  class = "quotes__spinner">
+                <!-- <option value="">-- Выберите город --</option>
+                <option value="petersburg">Санкт-Петербург</option>
+                <option value="samara">Самара</option>
+                <option value="perm">Пермь</option>
+                <option value="novosibirsk">Новосибирск</option> -->
+              </select>
+            <button class = "quotes__button" onclick="getQuotesRandom()" >Новые цитаты</button>
+        </div>
+      </section>
+
+
     <section class = "base-section fifth-section" id = "contacts">
             <div class = "container">
                 <div class = "fifth-section__header">
@@ -154,9 +184,10 @@
                         <button type = "submit" class = "fifth-section__button">+133711037</button>
                     </div>
                 </div>
-            </div>
-                  
+            </div>         
     </section>
+
+      
     <footer class = "header">
             <div class = "header__content">
                 <div class = "header__nickname">
